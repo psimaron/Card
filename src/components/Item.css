@@ -1,0 +1,42 @@
+.item{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom:10px;
+    margin-bottom:50px;
+    margin-top:15px;
+    border-radius: 5px;
+    flex: grow;
+    width: 500px;
+    height:130px;
+    background-color: rgb(247, 242, 242);
+}
+
+.item:hover{
+    border:thick solid blue; 
+}
+.item:hover h1 {
+    color:blue;
+    text-decoration: underline;
+}
+
+.icon{
+    margin-right:10px;
+    padding-top:20px;
+    margin-right:45px;
+    margin-left:45px;
+}
+
+.titleh{
+    font-family: Poppins;
+    font-size:22px;
+    text-align: start;
+    font-weight: bold;
+}
+.text{
+    font-family: Poppins;
+    font-size:20px;
+    text-align: start;
+    margin-bottom:50px;
+    margin-right:50px;
+}

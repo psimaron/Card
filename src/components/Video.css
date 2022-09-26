@@ -1,0 +1,12 @@
+.video img{
+    width: 330px;
+    height: 520px;
+    margin-right:100px;
+}
+
+@media (max-width:1024px){
+.video img {
+    display:block;
+    margin: 0 auto;
+};
+    }
